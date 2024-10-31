@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit Client</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="app">
+    <div id="lanes-container">
+      <!-- Subreddit lanes will be added here dynamically -->
+    </div>
+
+    <!-- Add Subreddit Button -->
+    <button id="addSubredditBtn">+</button>
+
+    <!-- Popup for Adding a New Subreddit -->
+    <div id="popup" class="hidden">
+      <h3>Enter the name of subreddit</h3>
+      <input type="text" id="subredditInput" placeholder="e.g., javascript">
+      <button id="addSubreddit">Add Subreddit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
